@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Lobster", cursive;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid black;
+  margin-right: -35px;
+  font-family: "Lato", sans-serif;
+}
+
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: black;
+  color: seashell;
+  font-weight: 700;
+  border-radius: 60px;
+}
+
+.main {
+  background: url(./images/library1.jpeg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 60px;
+  font-family: "Lato", sans-serif;
+}
+
+.btn1:hover {
+  background-color: gray;
+  transition: 0.5s;
+}
+
+.h1 {
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: -1px -4px 26px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -4px 26px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -4px 26px -4px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
